@@ -40,8 +40,8 @@
                 height: 100%;
                 background: repeating-linear-gradient(
                     to bottom,
-                    rgba(0, 0, 0, 0.2) 0px,
-                    rgba(0, 0, 0, 0.2) 2px,
+                    rgba(0, 0, 0, 0) 0px,
+                    rgba(0, 0, 0, 0) 2px,
                     rgba(0, 0, 0, 0) 4px
                 );
                 pointer-events: none;
@@ -51,8 +51,8 @@
             .scanlines::after {
                 content: "";
                 position: absolute;
-                top: -100%;
-                left: 0;
+                top: 100%;
+                left: 0%;
                 width: 100%;
                 height: 100%;
                 background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.2));
